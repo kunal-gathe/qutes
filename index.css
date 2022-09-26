@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #002B5B;
+}
+
+.box {
+  width: 800px;
+  height: 550px;
+  background-color: #2B4865;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  margin: -340px 0 0 -576px;
+}
+.small-box {
+  width: 500px;
+  height: 350px;
+  background-color: #8FE3CF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -200px 0 0 -250px;
+  box-shadow: -2px 5px 18px #212526;
+}
+#btn {
+    width: 39%;
+    padding: 10px;
+    background-color: #256D85;
+    position: absolute;
+    bottom: -60px;
+    left: 135px;
+    font-size: 1.1rem;
+    font-style: oblique;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 20px;
+}
+#btn:hover{
+    background-color: #1e5365;
+    font-size: 1rem;
+}
+
+#quotes {
+  position: absolute;
+  display: block;
+  top: 30%;
+  left: 7%;
+  font-size: 1.6rem;
+  font-family: 'Roboto Slab', serif;
+  text-align: left;
+}
+#author {
+  position: absolute;
+  top: 70%;
+  right: 10%;
+  font-size: 1.2rem;
+  font-family: 'Caveat', cursive;
+  font-weight: 800;
+  text-decoration: underline;
+  display: block;
+}
+#unicode {
+  position: absolute;
+  left: 60px;
+  top: 30px;
+  font-size: 8rem;
+}
+#img{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#tweetme{
+  display: none;
+}
